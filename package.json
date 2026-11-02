@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dev": "node ./scripts/dev.cjs",
+    "dev:client": "npm --prefix ./edureach_college_help_desk_agent/client run dev",
+    "dev:server": "npm --prefix ./edureach_college_help_desk_agent/server run dev"
+  },
+  "devDependencies": {
+    "playwright": "^1.64.0"
+  }
+}
