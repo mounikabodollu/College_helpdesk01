@@ -1,10 +1,13 @@
 {
   "scripts": {
     "dev": "node ./scripts/dev.cjs",
+    "build": "npm --prefix ./edureach_college_help_desk_agent/client run build",
     "dev:client": "npm --prefix ./edureach_college_help_desk_agent/client run dev",
-    "dev:server": "npm --prefix ./edureach_college_help_desk_agent/server run dev"
+    "dev:server": "npm --prefix ./edureach_college_help_desk_agent/server run dev",
+    "deploy": "npm --prefix ./edureach_college_help_desk_agent/client run deploy"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "playwright": "^1.64.0"
   }
 }
